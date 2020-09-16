@@ -1,0 +1,17 @@
+body{
+    background-color: #fafafa;
+}
+
+.mx-auto{
+    width: 600px;
+    margin-top: 40px;
+}
+
+.section-produto{
+    margin-top: 18%;
+}
+
+#btn{
+   width: 120px;
+    margin-left: 80%;
+}

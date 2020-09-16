@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Open Sans';
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.center { 
+    width: 1000px; 
+    margin: 0 auto; 
+}
+
+
+section#produtos ul { 
+    list-style: none; 
+    float: left; 
+    width: inherit; 
+}
+
+section#produtos ul li { 
+    float: left; 
+    width: 430px; 
+    padding: 20px 20px; 
+    background: #ffffff; 
+    margin: 20px 20px 0 0; 
+    border: 1px solid #c2c2c2; 
+    border-radius: 10px; 
+}
+
+section#produtos ul li h2 { 
+    float: left; 
+    margin-bottom: 15px; 
+    color: #2a2a2a; 
+}
+
+section#produtos ul li p { 
+    float: left; 
+    color: #7e7e7e; 
+    clear: left; 
+    line-height: 30px; 
+}
+
+section#produtos ul li a {  
+    text-decoration: none; 
+    margin-top: 20px; 
+    height: 40px; 
+    line-height: 36px; 
+    clear: left; 
+    padding: 0 20px; 
+    color: #ffffff; 
+    background: #007bff; 
+    float: left; 
+}
+
+section#produtos ul li a:hover{
+    opacity: 0.7;
+}
+
+section#produtos a {  
+    text-decoration: none; 
+    margin-top: 20px; 
+    height: 40px; 
+    line-height: 36px; 
+    clear: left; 
+    padding: 0 20px; 
+    color: #ffffff; 
+    background: #2962ff;
+    float: left; 
+}
+
+
